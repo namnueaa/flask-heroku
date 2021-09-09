@@ -31,7 +31,7 @@ def get_api():
 
 @app.route('/hi')
 def hi():
-    return สวัสดีคับ
+    return "สวัสดีคับ"
         
 if __name__ == "__main__":
     app.run(debug=False)
